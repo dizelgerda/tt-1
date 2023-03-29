@@ -33,7 +33,7 @@ export default function Map({ coordinates }: MapProps) {
       map.geoObjects.removeAll();
       addPoint(coordinates);
       // @ts-ignores
-      map.setCenter(coordinates, 10);
+      map.setCenter(coordinates, 13);
     }
   }, [coordinates]);
 
